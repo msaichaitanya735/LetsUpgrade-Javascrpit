@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>DAY3  ASSIGNMENT </title>
+	</head>
+    <h1> Takes OS name and version from the user separated by a space </h1>
+    <script>
+		function os()
+		{
+			var os;
+			os=document.getElementById("demo").value;
+			arr=os.split(" ");
+			console.log(`The OS name is ${arr[0]} and version is ${arr[1]}.`);
+		}
+	</script>
+	<body>
+		Enter OS name and Version <input id="demo"><br />
+		<button onclick="os()">log</button>
+	</body>
+</html>
